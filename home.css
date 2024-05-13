@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: rgb(238, 237, 236);
+}
+.wholepage{
+    display: flex;
+}
+.left{
+    background-color: white;
+    width:300px;
+    height:728px;
+}
+#i1{
+   margin-top: 60px;
+   margin-left: 100px;
+}
+.task{
+    display: flex;
+    padding-top: 40px;
+    padding-left:40px ;
+    gap: 20px;
+}
+.category{
+    display: flex;
+    padding-top: 20px;
+    padding-left:40px ;
+    gap: 15px;
+}
+#categories{
+    border-style: none;
+    font-size: 1.10em;
+    font-weight: bold;
+    font-family:"Poppins";
+}
+.settings{
+display: flex;
+padding-top: 20px;
+padding-left:40px ;
+gap: 20px;
+}
+.logout{
+    display: flex;
+    margin-top: 385px;
+    margin-left: 40px;
+    gap: 20px;
+}
+.logout img{
+    margin-top: 5px;
+}
+.logout a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.right h1{
+    margin-left: 440px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 200;
+}
+.filter{
+    display: flex;
+    gap: 620px;
+    margin-left: 135px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.t h2{
+    font-size: 30px;
+}
+.button button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: none;
+    box-shadow: 2px 2px gray;
+    padding: 5px 5px 5px 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+.button i{
+    color: gray;
+    padding-left: 5px;
+}
+.task-1{
+    width: 850px;
+    height: 80px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    padding: 0px 30px;
+    border-radius: 15px;
+}
+.line-1{
+    height: 75px;
+    width: 2px;
+    background-color: rgb(187, 183, 183);
+    margin-left: 30px;
+    margin-top: 0;
+   padding-top: 5px;
+}
+#ex-1{
+  margin-left: 40px;
+  margin-top:   12px;
+}
+#ex-1 h3{
+    margin-bottom: 10px;
+}
+.icon-1{
+    margin-left: 500px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+.task-2{
+    width: 850px;
+    height: 80px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    padding: 0px 30px;
+    border-radius: 15px;
+}
+.line-2{
+    height: 75px;
+    width: 2px;
+    background-color: rgb(187, 183, 183);
+    margin-left: 30px;
+    margin-top: 0;
+   padding-top: 5px;
+}
+#ex-2{
+  margin-left: 40px;
+  margin-top:   12px;
+}
+#ex-2 h3{
+    margin-bottom: 10px;
+}
+.icon-2{
+    margin-left: 500px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+.task-3{
+    width: 850px;
+    height: 80px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    padding: 0px 30px;
+    border-radius: 15px;
+}
+.line-3{
+    height: 75px;
+    width: 2px;
+    background-color: rgb(187, 183, 183);
+    margin-left: 30px;
+    margin-top: 0;
+   padding-top: 5px;
+}
+#ex-3{
+  margin-left: 40px;
+  margin-top:   12px;
+}
+#ex-3 h3{
+    margin-bottom: 10px;
+}
+.icon-3{
+    margin-left: 500px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+.add button{
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    padding: 12px 412px;
+    border-radius: 15px;
+}
+.add i{
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+#overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+#one{
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    border-radius: 15px;
+}
+#two{
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    border-radius: 15px;
+}
+#three{
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    border-radius: 15px;
+}
+#b button{
+    margin-top: 10px;
+}
+#pop1{
+    display: none;
+}
+#bb button{
+    margin-top: 10px;
+}
+#pop2{
+    display: none;
+}
+#bbone button{
+    margin-top: 10px;
+}
+#pop3{
+    display: none;
+}
+#c1{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+#c2{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+#c3{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+#d1{
+    color:red;
+    border: 2px solid red;
+}
+#d2{
+    color:red;
+    border: 2px solid red;
+}
+#d3{
+    color:red;
+    border: 2px solid red;
+}
+#radioone{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: solid black 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#onone{
+    background-color: blueviolet;
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+}
+#radiotwo{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: solid black 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#ontwo{
+    background-color: blueviolet;
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+  
+}
+#radiothree{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: solid black 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#onthree{
+    background-color: blueviolet;
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+}
+#insert{
+    z-index: 1000;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 250px;
+    padding: 10px 20px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#can{
+    margin-right: 30px;
+    color: blue;
+    border: 2px solid blue;
+    padding: 5px 10px;
+}
+#abutton{
+    color: green;
+    border: 2px solid green;
+    padding: 5px 10px;
+}
